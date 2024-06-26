@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Data Visualization</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="controls">
+        <label for="stock-select">Select Stock:</label>
+        <select id="stock-select">
+            <option value="">All</option>
+        </select>
+
+        <label for="date-start">Start Date:</label>
+        <input type="date" id="date-start">
+
+        <label for="date-end">End Date:</label>
+        <input type="date" id="date-end">
+    </div>
+    <div id="chart"></div>
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <script src="example.js"></script>
+</body>
+</html>
